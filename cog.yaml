@@ -1,0 +1,12 @@
+build:
+  python_version: "3.10"
+  python_packages:
+    - "ultralytics==8.0.168"
+    - "opencv-python"
+    - "numpy"
+    - "torch"
+    - "torchvision"
+
+predict: "predict.py:Predictor"
+
+image: "r8.im/ultralytics/ultralytics"
